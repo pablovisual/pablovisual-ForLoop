@@ -42,8 +42,9 @@ public class Lab {
     public String returnNumbers(int start, int end){
         String buildingString = "";
 
-//        code here
-
+        for (; start < end; start++) {
+            buildingString = buildingString + start + " ";
+        }
         return buildingString;
     }
 }
